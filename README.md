@@ -16,7 +16,7 @@ iOS music library explorer built with SwiftUI, modular Swift packages, and CarPl
 4. **Unit tests**: choose the **MoisesChallengeApp** (or package) scheme and run tests (**⌘U**).  
    **UI tests** live in the `MoisesChallengeAppUITests` target.
 
-5. **CarPlay**: the app declares a `CPTemplateApplicationScene` in `Info.plist` with `CarPlaySceneDelegate`. To exercise CarPlay, use Xcode’s CarPlay simulator or a physical CarPlay environment; playback uses **audio** background mode.
+5. **CarPlay**: the app declares a `CPTemplateApplicationScene` in `Info.plist` with `CarPlaySceneDelegate`. To run CarPlay, use Xcode’s CarPlay simulator or a physical CarPlay environment; playback uses **audio** background mode.
 
 ## Tech stack
 
