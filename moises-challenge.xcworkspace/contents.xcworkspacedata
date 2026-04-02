@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MoisesChallengeApp/MoisesChallengeApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MCAudioPlayer">
+   </FileRef>
+   <FileRef
+      location = "group:MCDependencyContainer">
+   </FileRef>
+   <FileRef
+      location = "group:MCDesignSystem">
+   </FileRef>
+   <FileRef
+      location = "group:MCNetwork">
+   </FileRef>
+</Workspace>

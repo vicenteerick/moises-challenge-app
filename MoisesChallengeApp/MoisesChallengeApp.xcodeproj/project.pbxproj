@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		743102222F788FC100D66B47 /* MCDependencyContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 743102212F788FC100D66B47 /* MCDependencyContainer */; };
+		743102242F788FC500D66B47 /* MCDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 743102232F788FC500D66B47 /* MCDesignSystem */; };
+		743102262F788FC900D66B47 /* MCNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 743102252F788FC900D66B47 /* MCNetwork */; };
+		74842F022F7B0040002E91B6 /* MCAudioPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 74842F012F7B0040002E91B6 /* MCAudioPlayer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		746FC1F32F771221006E9D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746FC1DD2F771220006E9D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746FC1E42F771220006E9D49;
+			remoteInfo = MoisesChallengeApp;
+		};
+		746FC1FD2F771221006E9D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746FC1DD2F771220006E9D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746FC1E42F771220006E9D49;
+			remoteInfo = MoisesChallengeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		746FC1E52F771220006E9D49 /* MoisesChallengeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoisesChallengeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746FC1F22F771221006E9D49 /* MoisesChallengeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoisesChallengeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746FC1FC2F771221006E9D49 /* MoisesChallengeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoisesChallengeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FC73B82F7C898900635535 /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		743102282F788FE600D66B47 /* Exceptions for "MoisesChallengeApp" folder in "MoisesChallengeApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 746FC1E42F771220006E9D49 /* MoisesChallengeApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		746FC1E72F771220006E9D49 /* MoisesChallengeApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				743102282F788FE600D66B47 /* Exceptions for "MoisesChallengeApp" folder in "MoisesChallengeApp" target */,
+			);
+			path = MoisesChallengeApp;
+			sourceTree = "<group>";
+		};
+		746FC1F52F771221006E9D49 /* MoisesChallengeAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoisesChallengeAppTests;
+			sourceTree = "<group>";
+		};
+		746FC1FF2F771221006E9D49 /* MoisesChallengeAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoisesChallengeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746FC1E22F771220006E9D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74842F022F7B0040002E91B6 /* MCAudioPlayer in Frameworks */,
+				743102222F788FC100D66B47 /* MCDependencyContainer in Frameworks */,
+				743102242F788FC500D66B47 /* MCDesignSystem in Frameworks */,
+				743102262F788FC900D66B47 /* MCNetwork in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FC1EF2F771221006E9D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FC1F92F771221006E9D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743102202F788FC100D66B47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74FC73B82F7C898900635535 /* CarPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		746FC1DC2F771220006E9D49 = {
+			isa = PBXGroup;
+			children = (
+				746FC1E72F771220006E9D49 /* MoisesChallengeApp */,
+				746FC1F52F771221006E9D49 /* MoisesChallengeAppTests */,
+				746FC1FF2F771221006E9D49 /* MoisesChallengeAppUITests */,
+				743102202F788FC100D66B47 /* Frameworks */,
+				746FC1E62F771220006E9D49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		746FC1E62F771220006E9D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746FC1E52F771220006E9D49 /* MoisesChallengeApp.app */,
+				746FC1F22F771221006E9D49 /* MoisesChallengeAppTests.xctest */,
+				746FC1FC2F771221006E9D49 /* MoisesChallengeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746FC1E42F771220006E9D49 /* MoisesChallengeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746FC2062F771221006E9D49 /* Build configuration list for PBXNativeTarget "MoisesChallengeApp" */;
+			buildPhases = (
+				746FC1E12F771220006E9D49 /* Sources */,
+				746FC1E22F771220006E9D49 /* Frameworks */,
+				746FC1E32F771220006E9D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				746FC1E72F771220006E9D49 /* MoisesChallengeApp */,
+			);
+			name = MoisesChallengeApp;
+			packageProductDependencies = (
+				743102212F788FC100D66B47 /* MCDependencyContainer */,
+				743102232F788FC500D66B47 /* MCDesignSystem */,
+				743102252F788FC900D66B47 /* MCNetwork */,
+				74842F012F7B0040002E91B6 /* MCAudioPlayer */,
+			);
+			productName = MoisesChallengeApp;
+			productReference = 746FC1E52F771220006E9D49 /* MoisesChallengeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746FC1F12F771221006E9D49 /* MoisesChallengeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746FC2092F771221006E9D49 /* Build configuration list for PBXNativeTarget "MoisesChallengeAppTests" */;
+			buildPhases = (
+				746FC1EE2F771221006E9D49 /* Sources */,
+				746FC1EF2F771221006E9D49 /* Frameworks */,
+				746FC1F02F771221006E9D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746FC1F42F771221006E9D49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				746FC1F52F771221006E9D49 /* MoisesChallengeAppTests */,
+			);
+			name = MoisesChallengeAppTests;
+			packageProductDependencies = (
+			);
+			productName = MoisesChallengeAppTests;
+			productReference = 746FC1F22F771221006E9D49 /* MoisesChallengeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		746FC1FB2F771221006E9D49 /* MoisesChallengeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746FC20C2F771221006E9D49 /* Build configuration list for PBXNativeTarget "MoisesChallengeAppUITests" */;
+			buildPhases = (
+				746FC1F82F771221006E9D49 /* Sources */,
+				746FC1F92F771221006E9D49 /* Frameworks */,
+				746FC1FA2F771221006E9D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746FC1FE2F771221006E9D49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				746FC1FF2F771221006E9D49 /* MoisesChallengeAppUITests */,
+			);
+			name = MoisesChallengeAppUITests;
+			packageProductDependencies = (
+			);
+			productName = MoisesChallengeAppUITests;
+			productReference = 746FC1FC2F771221006E9D49 /* MoisesChallengeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746FC1DD2F771220006E9D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					746FC1E42F771220006E9D49 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					746FC1F12F771221006E9D49 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 746FC1E42F771220006E9D49;
+					};
+					746FC1FB2F771221006E9D49 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 746FC1E42F771220006E9D49;
+					};
+				};
+			};
+			buildConfigurationList = 746FC1E02F771220006E9D49 /* Build configuration list for PBXProject "MoisesChallengeApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 746FC1DC2F771220006E9D49;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 746FC1E62F771220006E9D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				746FC1E42F771220006E9D49 /* MoisesChallengeApp */,
+				746FC1F12F771221006E9D49 /* MoisesChallengeAppTests */,
+				746FC1FB2F771221006E9D49 /* MoisesChallengeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746FC1E32F771220006E9D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FC1F02F771221006E9D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FC1FA2F771221006E9D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746FC1E12F771220006E9D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FC1EE2F771221006E9D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746FC1F82F771221006E9D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746FC1F42F771221006E9D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746FC1E42F771220006E9D49 /* MoisesChallengeApp */;
+			targetProxy = 746FC1F32F771221006E9D49 /* PBXContainerItemProxy */;
+		};
+		746FC1FE2F771221006E9D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746FC1E42F771220006E9D49 /* MoisesChallengeApp */;
+			targetProxy = 746FC1FD2F771221006E9D49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		746FC2042F771221006E9D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		746FC2052F771221006E9D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746FC2072F771221006E9D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoisesChallengeApp/Resources/MoisesChallengeApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoisesChallengeApp/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erickvicente.MoisesChallengeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		746FC2082F771221006E9D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoisesChallengeApp/Resources/MoisesChallengeApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoisesChallengeApp/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erickvicente.MoisesChallengeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		746FC20A2F771221006E9D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erickvicente.MoisesChallengeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoisesChallengeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoisesChallengeApp";
+			};
+			name = Debug;
+		};
+		746FC20B2F771221006E9D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erickvicente.MoisesChallengeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoisesChallengeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoisesChallengeApp";
+			};
+			name = Release;
+		};
+		746FC20D2F771221006E9D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erickvicente.MoisesChallengeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoisesChallengeApp;
+			};
+			name = Debug;
+		};
+		746FC20E2F771221006E9D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erickvicente.MoisesChallengeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoisesChallengeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		746FC1E02F771220006E9D49 /* Build configuration list for PBXProject "MoisesChallengeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746FC2042F771221006E9D49 /* Debug */,
+				746FC2052F771221006E9D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746FC2062F771221006E9D49 /* Build configuration list for PBXNativeTarget "MoisesChallengeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746FC2072F771221006E9D49 /* Debug */,
+				746FC2082F771221006E9D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746FC2092F771221006E9D49 /* Build configuration list for PBXNativeTarget "MoisesChallengeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746FC20A2F771221006E9D49 /* Debug */,
+				746FC20B2F771221006E9D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746FC20C2F771221006E9D49 /* Build configuration list for PBXNativeTarget "MoisesChallengeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746FC20D2F771221006E9D49 /* Debug */,
+				746FC20E2F771221006E9D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		743102212F788FC100D66B47 /* MCDependencyContainer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MCDependencyContainer;
+		};
+		743102232F788FC500D66B47 /* MCDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MCDesignSystem;
+		};
+		743102252F788FC900D66B47 /* MCNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MCNetwork;
+		};
+		74842F012F7B0040002E91B6 /* MCAudioPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MCAudioPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 746FC1DD2F771220006E9D49 /* Project object */;
+}
